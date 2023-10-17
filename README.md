@@ -3,6 +3,7 @@ Database containers for your all development needs.
 Datastore quickly configures and deploy database instances according to your needs.
 
 ## Disclaimer
+
 > **`DON'T USE THIS IN PRODUCTION !!!`**
 
 ## Features
@@ -21,16 +22,16 @@ Database users and password can be configured in the dockercompose.yml itself
 >**`Docker & Dockercompose on the host machine.`**
 
 ## Deployment
+Leave SERVICE_NAME as Blank if you want to start all serivecs.
 
 ```sh
 
 cd datastore
-sudo docker-compose up -d
+sudo docker-compose up <SERVICE_NAME> -d
 
 ```
 
 ## Reset Specfic DataStore
-
 If something went wrong, We can reset that particular Database.
 
 ```sh
