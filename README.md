@@ -2,6 +2,9 @@
 Database containers for your all development needs.
 Datastore quickly configures and deploy database instances according to your needs.
 
+## Disclaimer
+**DON'T USE THIS IN PRODUCTION !!!**
+
 ## Features
 Database users and password can be configured in the dockercompose.yml itself
 
