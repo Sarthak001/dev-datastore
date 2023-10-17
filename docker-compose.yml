@@ -1,6 +1,7 @@
 version: '3'
 volumes:
-  data:
+  mongodata:
+  mairadbdata:
 services:
   mariadb:
     image: mariadb
@@ -11,7 +12,7 @@ services:
       MARIADB_USER: user
       MARIADB_PASSWORD: mahadev
     volumes:
-      - data:/var/lib/db/mariadb
+      - mairadbdata:/var/lib/db/mariadb
     ports:
       - "3306:3306"
       
@@ -28,7 +29,7 @@ services:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: mahadev
     volumes:
-      - data:/var/lib/db/mongodb
+      - mongodata:/var/lib/db/mongodb
     ports:
       - "27017:27017"
 
