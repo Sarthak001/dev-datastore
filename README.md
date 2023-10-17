@@ -5,13 +5,17 @@ Datastore quickly configures and deploy database instances according to your nee
 ## Features
 Database users and password can be configured in the dockercompose.yml itself
 
-- [Mariadb] - maraidb instance @ localhost:3306
+- [Mariadb] - maraidb instance @ ** localhost:3306 **
 
-- [adminer] - adminer instance for easy management of maraidb @ localhost:8082
+- [adminer] - adminer instance for easy management of maraidb @ ** localhost:8082 **
 
-- [mongodb] - mongodb instance @ localhost:27017
+- [mongodb] - mongodb instance @ ** localhost:27017 **
 
-- [mongo-express] - mongo-express for easy management of mongdb @ localhost:8081
+- [mongo-express] - mongo-express for easy management of mongdb @ ** localhost:8081 **
+
+## Requirments
+
+- Docker & Dockercompose on the host machine.
 
 ## Deployment
 
